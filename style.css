@@ -52,38 +52,12 @@ padding-left: 15%;
 	}
 }
 
-@media (min-width: 576px) {
+
+@media (min-width:0px) and (max-width:500px){
     .carousel-caption h1{
-        font-size: 20px;
-    }
-    .carousel-caption p{
-        width: 150px;
-        height: 60px;
-        margin-left: 260px;
         font-size: 12px;
     }
-  }
-
-@media (min-width: 768px) {
-    .carousel-caption p{
-        width: 100%;
-    }
- }
-
-@media (min-width: 992px) { 
-    .carousel-caption p{
-        width: 100%;
-    }
- }
-
-/* @media (min-width: 1200px) {  
-    .carousel-caption{
-        width: 90%;
+    .carousel-caption p {
+        font-size: 8px;
     }
 }
-
-@media (min-width: 1400px) { 
-    .carousel-caption{
-        width: 90%;
-    }
- } */
